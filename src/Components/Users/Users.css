@@ -1,0 +1,117 @@
+.recomendation__content {
+    width: 330px;
+    border-radius: 10px;
+    background: #f7f9f9;
+    padding-bottom: 15px;
+    margin: 15px;
+}
+
+.recomendation__title {
+    padding: 20px 15px 0px 22px;
+    margin-bottom: 25px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.recomendation__card {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    margin-top: 18px;
+    margin-bottom: 25px;
+}
+
+.recomendation__img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-right: 12px;
+}
+
+.recomendation__item {
+    width: 175px;
+}
+
+.recomendation__text {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 1px;
+    margin-top: 0;
+}
+
+.recomendation__span {
+    display: block;
+    opacity: 0.6;
+}
+
+.recomendation__btn {
+    width: 92px;
+    height: 38px;
+    background: #000000;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    margin-right: 5px;
+}
+
+.recomendation__btn:hover {
+    opacity: 0.7;
+}
+
+.recomendation__btn:active {
+    opacity: 0.4;
+}
+
+.recomendation__link {
+    font-family: Segoe UI;
+    line-height: 100%;
+    color: #1da1f2;
+    margin-left: 18px;
+    margin-bottom: 25px;
+    font-size: 17px;
+    border: none;
+    text-decoration: underline;
+    background: #f7f9f9;
+    cursor: pointer;
+}
+
+.recomendation__link:hover {
+    opacity: 0.7;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.content-show {
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+.links {
+    width: 330px;
+    background: white;
+    padding: 10px;
+}
+
+.links__item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links__list {
+    margin-right: 10px;
+}
+
+.links__link {
+    font-size: 14px;
+    line-height: 21px;
+    color: #536471;
+}

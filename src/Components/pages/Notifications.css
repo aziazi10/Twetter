@@ -1,0 +1,10 @@
+.notifications {
+    width: 800px;
+    border-right: 2px solid #d8d8d8;
+}
+
+.notifications__text {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 15px;
+}

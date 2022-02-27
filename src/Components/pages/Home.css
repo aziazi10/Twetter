@@ -1,0 +1,198 @@
+.home {
+    width: 800px;
+    border-right: 2px solid #d8d8d8;
+}
+
+.home__content {
+    width: 703px;
+    border-bottom: 2px solid #d8d8d8;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+}
+
+.home__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__title {
+    font-family: Segoe UI;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.home__happen {
+    border-bottom: 2px solid #d8d8d8;
+    padding: 15px;
+}
+
+.home__item {
+    display: flex;
+    align-items: center;
+}
+
+.home__img {
+    margin-right: 25px;
+}
+
+.home__text {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    color: #828282;
+    border: none;
+}
+
+.btn {
+    border: none;
+    background: white;
+}
+
+.home__adds {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home__images {
+    margin-left: 85px;
+    display: flex;
+}
+
+.home__image {
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+.home__btn {
+    width: 108px;
+    height: 50px;
+    background:  #1D9BF0;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 120px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 17px;
+}
+
+.home__btn:hover {
+    opacity: 0.8;
+}
+
+.home__btn:active {
+    opacity: 0.4;
+}
+
+.home__user {
+    padding: 15px;
+    align-items: center;
+    border-bottom: 2px solid #d8d8d8;
+}
+
+.home__user-items {
+    display: flex;
+    align-items: center;
+}
+
+.home__user-image {
+    margin-right: 15px;
+    margin-bottom: 14px;
+}
+
+.home__user-seen {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.home__user-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    margin-right: 5px;
+}
+
+.home__user-span {
+    opacity: 0.6;
+    margin-right: 350px;
+}
+
+.home__user-spann {
+    opacity: 0.6;
+    margin-right: 266px;
+}
+
+.home__user-text {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.home__user-buttons {
+    display: flex;
+    gap: 60px;
+    margin-left: 80px;
+}
+
+.home__user-btn {
+    display: flex;
+    align-items: center;
+}
+
+.home__user-btn-btn {
+    margin-right: 5px;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+.home__user-counter {
+    font-size: 16px;
+    line-height: 21px;
+    color: #536471;
+}
+
+.home__lunch {
+    padding: 15px;
+    display: flex;
+}
+
+.home__lunch-image {
+    margin-right: 15px;
+}
+
+.home__lunch-item {
+    display: flex;
+    align-items: center;
+}
+
+.home__lunch-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    margin-right: 5px;
+}
+
+.home__lunch-span {
+    opacity: 0.6;
+    margin-right: 247.5px;
+}
+
+.home__lunch-text {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.home__lunch-img {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.home__lunch-buttons {
+    display: flex;
+    gap: 60px;
+    
+}

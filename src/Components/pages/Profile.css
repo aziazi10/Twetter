@@ -1,0 +1,247 @@
+.profile {
+    width: 800px;
+    border-right: 2px solid #d8d8d8;
+}
+
+.profile__heard {
+    display: flex;
+    padding: 15px;
+}
+
+.profile__img {
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+.profile__arrow {
+    border: none;
+    background: white;
+    margin-right: 40px;
+}
+
+.profile__arrow:hover {
+    opacity: 0.7;
+}
+
+.profile__title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.profile__span {
+    font-size: 16px;
+    line-height: 21px;
+    opacity: 0.6;
+}
+
+.profile__bg {
+    margin-right: 35px;
+}
+
+.profile__prof {
+    position: absolute;
+    transform: translateX(20%) translateY(-70px);
+}
+
+.profile__edit {
+    width: 120px;
+    height: 44px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 50px;
+    background: white;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    position: absolute;
+    transform: translateX(550%) translateY(13px);
+}
+
+.profile__content {
+    padding: 15px;
+    margin-top: 55px;
+    border-bottom: 2px solid #d8d8d8;
+}
+
+.profile__content-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.profile__content-span {
+    font-size: 16px;
+    line-height: 21px;
+    opacity: 0.6;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.profile__content-textt {
+    display: flex;
+}
+
+.profile__content-undertitle {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.profile__content-link {
+    font-size: 18px;
+    line-height: 24px;
+    color: #1da1f2;
+}
+
+.profile__edit:hover {
+    opacity: 0.7;
+}
+
+.profile__content-items {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.profile__content-item {
+    display: flex;
+    align-items: center;
+    margin-right: 18px;
+}
+
+.profile__content-img {
+    margin-right: 5px;
+}
+
+.profile__content-text {
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.6;
+}
+
+.profile__content-follower {
+    display: flex;
+}
+
+.profile__content-follow {
+    display: flex;
+    margin-right: 30px;
+}
+
+.profile__content-followers {
+    margin-right: 10px;
+}
+
+.profile__content-btn {
+    display: inline-block;
+    border: none;
+    background: white;
+    margin: 40px 68px 0px 48px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 5px;
+}
+
+.profile__content-btn:hover {
+    opacity: 0.6;
+    box-shadow: 0 3px 0 0 #129ef5;
+}
+
+.profile__content-btn:active {
+    opacity: 0.3;
+    border-bottom: 2px solid #129ef5;
+}
+
+/* Tweets ====================================================== */
+
+.profile__tweets {
+    padding: 15px;
+    border-bottom: 2px solid #d8d8d8;
+    border-left: 2px solid #d8d8d8;
+}
+
+.profile__tweets-pin {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.profile__tweet-pin {
+    margin-right: 18px;
+    margin-left: 45px;
+}
+
+.profile__tweets-span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #536471;
+}
+
+.profile__tweet-content {
+    display: flex;
+}
+
+.profile__tweets-image {
+    margin-right: 15px;
+}
+
+.profile__tweet-item {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.profile__tweet-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    margin-right: 5px;
+}
+
+.profile__tweet-span {
+    opacity: 0.6;
+}
+
+.profile__tweet-dot {
+    margin-left: 555px;
+}
+
+.profile__tweet-text {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.profile__tweet-btns {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.profile__tweets-btn {
+    display: flex;
+}
+
+.profile__tweet-btn {
+    border: none;
+    background: white;
+    margin-right: 11px;
+}
+
+.profile__tweet-counter {
+    font-size: 16px;
+    line-height: 21px;
+    color: #536471;
+}
+
+.profile__tweet-dots {
+    margin-left: 384px;
+    margin-top: 2px;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.profile__tweet-mavlonov {
+    margin-bottom: 15px;
+}
