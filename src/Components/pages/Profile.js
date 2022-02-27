@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom"
 import Arrow from '../../Assets/images/arrow.png'
 import Bg from '../../Assets/images/bg.png'
 import Bobur from '../../Assets/images/Bobur-prof.png'
+import Boburr from '../../Assets/images/Boburr.png'
 import Location from "../../Assets/images/location.png"
 import Scrept from '../../Assets/images/scrept.png'
 import Born from '../../Assets/images/born.png'
@@ -99,7 +100,7 @@ export default function Profile() {
                         <img className="profile__tweet-dot" src={ Dots } alt='dot' width='17' height='4' />
                     </div>
                     <div className="profile__tweet-content">
-                        <img src={ Bobur } alt='Bobur' width='60' height='60' className="profile__tweets-image" />
+                        <img src={ Boburr } alt='Bobur' width='60' height='60' className="profile__tweets-image" />
                         <div className="profile__tweet-items">
                             <div className="profile__tweet-item">
                                 <p className="profile__tweet-title">Bobur</p>
@@ -134,7 +135,7 @@ export default function Profile() {
             <div className="profile__tweets">
                 <div className="profile__tweet">
                     <div className="profile__tweet-content">
-                        <img src={ Bobur } alt='Bobur' width='60' height='60' className="profile__tweets-image" />
+                        <img src={ Boburr } alt='Bobur' width='60' height='60' className="profile__tweets-image" />
                         <div className="profile__tweet-items">
                             <div className="profile__tweet-item">
                                 <p className="profile__tweet-title">Bobur</p>
@@ -170,7 +171,7 @@ export default function Profile() {
             <div className="profile__tweets">
                 <div className="profile__tweet">
                     <div className="profile__tweet-content">
-                        <img src={ Bobur } alt='Bobur' width='60' height='60' className="profile__tweets-image" />
+                        <img src={ Boburr } alt='Bobur' width='60' height='60' className="profile__tweets-image" />
                         <div className="profile__tweet-items">
                             <div className="profile__tweet-item">
                                 <p className="profile__tweet-title">Bobur</p>

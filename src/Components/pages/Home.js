@@ -4,7 +4,7 @@ import './Home.css'
 
 // images
 import Stars from '../../Assets/images/stars.png'
-import Bobur from '../../Assets/images/Bobur.png'
+import Boburr from '../../Assets/images/Boburr.png'
 import Image from '../../Assets/images/image.png'
 import Gif from '../../Assets/images/gif.png'
 import Stats from '../../Assets/images/stats.png'
@@ -49,7 +49,7 @@ export default function Home() {
 
             <div className="home__happen">
                 <div className="home__item">
-                    <img className="home__img" src={ Bobur } alt='Bobur' width='60' height='60' />
+                    <img className="home__img" src={ Boburr } alt='Bobur' width='60' height='60' />
                     <input className="home__text" type='search' placeholder="What’s happening"></input>
                 </div>
                 <div className="home__adds">

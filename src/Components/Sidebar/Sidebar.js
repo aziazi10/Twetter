@@ -12,7 +12,7 @@ import bookmarks from '../../Assets/images/bookmarks.png'
 import lists from '../../Assets/images/lists.png'
 import profile from '../../Assets/images/profile fill.png'
 import more from '../../Assets/images/more.png'
-import Bobur from '../../Assets/images/Bobur.png'
+import Boburr from '../../Assets/images/Boburr.png'
 import Dots from '../../Assets/images/dots.png'
 // ===========================================
 
@@ -60,7 +60,7 @@ export default function Sidebar() {
                         </li>
                         <button className='sidebar__btn' onClick={ () => setBtnn(!buttonTxt) }>{ buttonTxt ? 'Tweeted' : 'Tweet' }</button>
                         <div className="sidebar__profile" >
-                            <img src={ Bobur } alt='Bobur' width='50' height='50' />
+                            <img src={ Boburr } alt='Bobur' width='50' height='50' />
                             <div className="sidebar__profile-item">
                                 <p className="sidebar__profile-text">Bobur</p>
                                 <span className="sidebar__profile-span">@bobur_mavlonov</span>
